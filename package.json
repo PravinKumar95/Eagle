@@ -1,0 +1,42 @@
+{
+  "name": "eagle",
+  "version": "0.0.1",
+  "description": "A 2D game engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PravinKumar95/Eagle.git"
+  },
+  "keywords": [
+    "game_engine",
+    "2D",
+    "cross_platform",
+    "web"
+  ],
+  "author": "Pravin Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PravinKumar95/Eagle/issues"
+  },
+  "homepage": "https://github.com/PravinKumar95/Eagle#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
