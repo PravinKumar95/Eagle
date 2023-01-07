@@ -1,6 +1,8 @@
-# libraries
+#dependencies
 node_modules
 
-# artifacts
-dist
-build
+#examples
+examples
+
+#build 
+.parcel-cache
