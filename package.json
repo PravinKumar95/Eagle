@@ -1,41 +1,15 @@
 {
   "name": "eagle",
-  "version": "0.0.1",
-  "description": "A general purpose game engine",
-  "source": "src/index.ts",
-  "main": "dist/index.js",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "types": "dist/index.d.ts",
-  "devDependencies": {
-    "@parcel/packager-ts": "^2.8.2",
-    "@parcel/transformer-typescript-types": "^2.8.2",
-    "parcel": "latest",
-    "typescript": "^4.9.4"
-  },
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "test": "test"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PravinKumar95/Eagle.git"
-  },
-  "keywords": [
-    "game-engine",
-    "game-dev",
-    "web",
-    "2D",
-    "3D",
-    "graphics"
-  ],
-  "author": "Pravin Kumar",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/PravinKumar95/Eagle/issues"
-  },
-  "homepage": "https://github.com/PravinKumar95/Eagle#readme",
-  "dependencies": {
-    "webgpu": "^0.1.16"
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
   }
 }

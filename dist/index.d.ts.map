@@ -1,1 +1,0 @@
-{"mappings":"AAAA,oBAAoB,GAAG,EAAE,CAAC,SAAS,KAAA,KAAK,IAAI,QAW3C","sources":["src/src/core/game_loop.ts","src/src/core/index.ts","src/src/index.ts","src/index.ts"],"sourcesContent":[null,null,null,"import { run } from \"./core\";\n\nexport { run };\n"],"names":[],"version":3,"file":"index.d.ts.map"}
